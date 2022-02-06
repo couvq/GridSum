@@ -1,0 +1,6 @@
+1. Result View - I would like to make the result view region look more visually appealing because right now I don't quite like how it looks.
+                 A possible way I am considering doing this would be to make the inner contents of the result view an html table
+                 rather than than a list.
+
+2. Responsive - Currently, my design looks great on a desktop or laptop device but would look terrible on a phone. This is an improvement improvement
+                I will absolutely have to make. 

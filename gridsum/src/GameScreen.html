@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GameScreen.css">
+    <title>Game Screen</title>
+</head>
+<body>
+    <div class="row">
+        <!-- This is the column that will contain our numbers and grid-->
+        <div class="col">
+            <div class="numbers">
+                <div class="drag-item" draggable="true">1</div>
+                <div class="drag-item" draggable="true">2</div>
+                <div class="drag-item" draggable="true">3</div>
+                <div class="drag-item" draggable="true">4</div>
+                <div class="drag-item" draggable="true">5</div>
+                <div class="drag-item" draggable="true">6</div>
+                <div class="drag-item" draggable="true">7</div>
+                <div class="drag-item" draggable="true">8</div>
+                <div class="drag-item" draggable="true">9</div>
+            </div>
+            <div class="grid">
+                <div class="row1">
+                    <div id="grid-item1" class="grid-item"></div>
+                    <div id="grid-item2" class="grid-item"></div>
+                    <div id="grid-item3" class="grid-item"></div>
+                </div>
+                <div class="row2">
+                    <div id="grid-item4" class="grid-item"></div>
+                    <div id="grid-item5" class="grid-item"></div>
+                    <div id="grid-item6" class="grid-item"></div>
+                </div>
+                <div class="row3">
+                    <div id="grid-item7" class="grid-item"></div>
+                    <div id="grid-item8" class="grid-item"></div>
+                    <div id="grid-item9" class="grid-item"></div>
+                </div>
+            </div>
+        </div>
+        <!-- This is the column that will contain our results box-->
+        <div class="col">
+            <div class="results">
+                <h1>Results</h1>
+                <div class="result-view"></div>
+                <button class="reset-btn">Reset</button>
+                <button class="verify-btn">Check Solution</button>
+            </div>
+        </div>
+    </div>
+    
+<script src="game.js"></script>
+</body>
+</html>

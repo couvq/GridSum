@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #272727;
+}
+
+.instruction-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    border: solid 2px #ffe400;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.instruction-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.instruction-card h2{
+    color: #ffe400;
+    font-size: 50px;
+}
+
+.instruction-card p {
+    color: #ffe400;
+    font-size: 30px;
+    transform: translateY(-10%);
+}
+
+.instruction-card button{
+    background-color: #ffe400;
+    color: #272727;
+    width: 200px;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instruction-card button:hover {
+    opacity: 0.7;
+}
+
+
+
+
+

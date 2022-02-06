@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #272727;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.drag-item {
+    background-color: #ff652f;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+    margin-top: 50px;
+}
+
+.grid .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid .row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    background-color: #272727;
+    border: solid 3px #ff652f;
+    width: 80px;
+    height: 80px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-color: #272727;
+    border: 3px solid #14a76c;
+    padding: 10px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.results .result-view {
+    background-color: #272727;
+    color: #14a76c;
+    width: 100%;
+    height: 50%;
+    align-self: center;
+    transform: translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.results .result-view h2 {
+    font-size: 20px;
+    text-decoration: underline;
+    align-self: center;
+}
+
+.results .result-view ul {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.results .result-view li {
+    list-style: none;
+    font-size: 15px;
+    align-self: center;
+}
+
+.results h1 {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #14a76c;
+}
+
+.results button {
+    margin-top: 20px;
+}
+
+.results .reset-btn {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    background: #ff652f;
+    color: #272727;
+    cursor: pointer;
+}
+
+.results .reset-btn:hover {
+    opacity: .7;
+}
+
+.results .verify-btn {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    background-color: #14a76c;
+    color: #272727;
+    cursor: pointer;
+}
+
+.results .verify-btn:hover {
+    opacity: .7;
+}
+
+.invisible {
+    display: none;
+}
+
+.dragEnter {
+    border-color: #14a76c;
+}
+
+.winner-screen {
+    width: 95vw;
+    height: 95vh;
+    background-color: #14a76c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.winner-screen h1 {
+    color: #272727;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.winner-screen button {
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ff652f;
+}
+
+.winner-screen button:hover {
+    opacity: .7;
+}
+
+.loser-screen {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.loser-screen h1 {
+    color: #272727;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.loser-screen button {
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #272727;
+    color: #ff652f;
+}
+
+.loser-screen button:hover {
+    opacity: .7;
+}
